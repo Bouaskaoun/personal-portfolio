@@ -484,6 +484,7 @@ img {
 
 .skills__titles{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: var(--mb-0-5);
 }
@@ -491,6 +492,17 @@ img {
 .skills__name{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  margin-left: 6px;
+}
+
+.skills__icons{
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+.skills__logo{
+  display: flex;
+  align-items: center;
 }
 
 .skills__bar,
