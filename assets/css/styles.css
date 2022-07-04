@@ -640,6 +640,38 @@ img {
   color: var(--first-color);
 }
 
+/*==================== CERTIFICATE ====================*/
+.certificate__container{
+  overflow: initial;
+}
+
+.certificate__content{
+  padding: 0 1.5rem;
+}
+
+.certificate__img{
+  width: 265px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.certificate__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.certificate__description{
+  margin-bottom: var(--mb-0-75);
+}
+
+.certificate__button:hover .button__icon{
+  transform: translateX(.25rem);
+}
+
+.swiper-certificate-icon{
+  font-size: 2rem;
+  color: var(--first-color);
+}
 
 /*==================== SERVICES ====================*/
 .services__container{
@@ -1102,6 +1134,7 @@ img {
   .skills__container,
   .project__container,
   .portfolio__content,
+  .certificate__content,
   .contact__container,
   .footer__container{
     grid-template-columns: repeat(2, 1fr);
@@ -1221,6 +1254,14 @@ img {
     grid-template-columns: .5fr;
   }
 
+  .certificate__img{
+    width: 320px;
+  }
+
+  .certificate__content{
+    align-items: center;
+  }
+
   .services__container{
     grid-template-columns: repeat(3, 218px);
     justify-content: center;
@@ -1306,6 +1347,14 @@ img {
 
   .home__social{
     transform: translateX(-6rem);
+  }
+
+  .certificate__content{
+    column-gap: 5rem;
+  }
+
+  .swiper-certificate-icon{
+    font-size: 3.5rem;
   }
 
   .services__container{
